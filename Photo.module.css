@@ -1,0 +1,65 @@
+* {
+    font-family: "Segoe UI Symbol";
+    background-color: #eceff4;
+}
+
+
+.rating {
+    font-size: 12px;
+    line-height: 16px;
+    color:red;
+
+}
+.photo img {
+    width: 180px;
+    height: 200px;
+    margin-bottom: 10px;
+
+}
+.photo {
+    background-color:#ffffff;
+}
+.text1 {
+    font-size:20px;
+}
+.tex2 {
+    font-style: revert;
+    font-size:15px;
+
+}
+.global {
+    width:90vw;
+    max-width:1170px;
+    margin:5rem auto;
+    display:grid;
+    gap:2em;
+
+}
+@media screen and (min-width: 768px) {
+    .global {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
+
+    }
+}
+
+.rootter {
+    padding:1rem 2rem;
+    border-radius: 1rem;
+    background-color:#ffffff;
+}
+
+.text1 {
+    background-color:#ffffff;
+}
+.rating {
+    background-color:#ffffff;
+}
+
+.text2 {
+    background-color:#ffffff;
+}
+.price {
+    background-color:#ffffff;
+
+}
